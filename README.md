@@ -245,6 +245,28 @@ Available targets:
 |------|---------|
 | aws | >= 2.0 |
 
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| cicd | cloudposse/cicd/aws | 0.16.0 |
+| ecr | cloudposse/ecr/aws | 0.32.2 |
+| efs | cloudposse/efs/aws | 0.25.0 |
+| efs_backup | cloudposse/backup/aws | 0.6.1 |
+| elastic_beanstalk_application | cloudposse/elastic-beanstalk-application/aws | 0.9.0 |
+| elastic_beanstalk_environment | cloudposse/elastic-beanstalk-environment/aws | 0.36.1 |
+| label_slaves | cloudposse/label/null | 0.24.1 |
+| this | cloudposse/label/null | 0.24.1 |
+
+## Resources
+
+| Name |
+|------|
+| [aws_iam_policy](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/iam_policy) |
+| [aws_iam_policy_document](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/data-sources/iam_policy_document) |
+| [aws_iam_role_policy_attachment](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/iam_role_policy_attachment) |
+| [aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/security_group) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -347,7 +369,6 @@ Available targets:
 | elastic\_beanstalk\_environment\_setting | Settings specifically set for this environment |
 | elastic\_beanstalk\_environment\_tier | The environment tier |
 | elastic\_beanstalk\_environment\_triggers | Autoscaling triggers in use by this environment |
-
 <!-- markdownlint-restore -->
 
 
