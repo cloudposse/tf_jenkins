@@ -11,7 +11,7 @@ module "elastic_beanstalk_application" {
 # Elastic Beanstalk Environment
 module "elastic_beanstalk_environment" {
   source     = "cloudposse/elastic-beanstalk-environment/aws"
-  version    = "0.36.1"
+  version    = "0.37.2"
   attributes = ["env"]
 
   region                             = var.region
